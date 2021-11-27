@@ -21,11 +21,11 @@ class Mozabrick:
         sumRgb = self.pixels[i : i + self.size, j : j + self.size].sum();
         return int(sumRgb // (self.size ** 2));
 
+startTime = time.time();
 inputImg = Image.open(input("Введите полный путь обрабатываемого изображения: "));
 outputNameImg = input("Введите имя нового изображения: ");
 size = int(input('Введите значение мозайки: '))
 count_gray = int(input('Введите количество градаций серого: '))
-startTime = time.time();
 pixels = np.array(inputImg);
 result = Mozabrick(pixels, size, count_gray).image_processing();
 result.save(outputNameImg); 
