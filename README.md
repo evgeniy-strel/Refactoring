@@ -12,3 +12,8 @@
 ![Image alt](https://github.com/evgeniy-strel/Refactoring/blob/main/filter_with_filename.jpg?raw=true)
 Сокращение времени в сравнении с файлом old_filter.py объясняется отказами от использования многочисленных циклов и замены вместо них матричными методами.
 
+Скриншот вызова docstring описания функций:
+![Image alt](https://github.com/evgeniy-strel/Refactoring/blob/main/doctest.jpg?raw=true)
+
+Вывод на экран свойств ширины и высоты изображения, его формата, ширины блока и количество градаций серого:
+![Image alt](https://github.com/evgeniy-strel/Refactoring/blob/main/values.jpg?raw=true)
